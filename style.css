@@ -1,0 +1,129 @@
+body {
+  background-color: #fff;
+  color: aliceblue;
+}
+
+.sombras-xl {
+  border: 1px solid rgb(123, 121, 121);
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 30%;
+  display: table;
+  box-shadow: 10px 20px 40px black;
+}
+
+.contenido {
+  border-radius: 30%;
+  color: #fff7f7;
+  font-size: 30px;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  text-shadow: 1px 1px #393e46, 2px 2px #393e46, 3px 3px #393e46,
+    4px 4px #393e46, 5px 5px #393e46, 6px 6px #393e46, 7px 7px #393e46,
+    8px 8px #393e46, 9px 9px #393e46, 10px 10px #393e46, 11px 11px #393e46,
+    12px 12px #393e46, 13px 13px #393e46, 14px 14px #393e46, 15px 15px #393e46,
+    16px 16px #393e46, 17px 17px #393e46, 18px 18px #393e46, 19px 19px #393e46,
+    20px 20px #393e46, 21px 21px #393e46, 22px 22px #393e46, 23px 23px #393e46,
+    24px 24px #393e46, 25px 25px #393e46, 26px 26px #393e46, 27px 27px #393e46,
+    28px 28px #393e46, 29px 29px #393e46, 30px 30px #393e46, 31px 31px #393e46,
+    32px 32px #393e46, 33px 33px #393e46, 34px 34px #393e46, 35px 35px #393e46,
+    36px 36px #393e46, 37px 37px #393e46, 38px 38px #393e46, 39px 39px #393e46,
+    40px 40px #393e46, 41px 41px #393e46, 42px 42px #393e46, 43px 43px #393e46,
+    44px 44px #393e46, 45px 45px #393e46, 46px 46px #393e46, 47px 47px #393e46,
+    48px 48px #393e46, 49px 49px #393e46, 50px 50px #393e46, 51px 51px #393e46,
+    52px 52px #393e46, 53px 53px #393e46, 54px 54px #393e46, 55px 55px #393e46,
+    56px 56px #393e46, 57px 57px #393e46, 58px 58px #393e46, 59px 59px #393e46,
+    60px 60px #393e46, 61px 61px #393e46, 62px 62px #393e46, 63px 63px #393e46,
+    64px 64px #393e46, 65px 65px #393e46, 66px 66px #393e46, 67px 67px #393e46,
+    68px 68px #393e46, 69px 69px #393e46, 70px 70px #393e46, 71px 71px #393e46,
+    72px 72px #393e46, 73px 73px #393e46, 74px 74px #393e46, 75px 75px #393e46,
+    76px 76px #393e46, 77px 77px #393e46, 78px 78px #393e46, 79px 79px #393e46,
+    80px 80px #393e46, 81px 81px #393e46, 82px 82px #393e46, 83px 83px #393e46,
+    84px 84px #393e46, 85px 85px #393e46, 86px 86px #393e46, 87px 87px #393e46,
+    88px 88px #393e46, 89px 89px #393e46, 90px 90px #393e46, 91px 91px #393e46,
+    92px 92px #393e46, 93px 93px #393e46, 94px 94px #393e46, 95px 95px #393e46,
+    96px 96px #393e46, 97px 97px #393e46, 98px 98px #393e46, 99px 99px #393e46,
+    100px 100px #393e46;
+  mix-blend-mode: hard-light;
+  overflow: hidden;
+}
+
+.facebook {
+  background-color: #4c6af5;
+}
+
+.instagram {
+  background: #833ab4; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fcb045,
+    #fd1d1d,
+    #833ab4
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.twitch {
+  background: #6441a5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #2a0845,
+    #6441a5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #2a0845,
+    #6441a5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.youtube {
+  background: #e52d27; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b31217,
+    #e52d27
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b31217,
+    #e52d27
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.twitter {
+  background: #56ccf2; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #2f80ed,
+    #56ccf2
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #2f80ed,
+    #56ccf2
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.whatsapp {
+  background: #11998e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #38ef7d,
+    #11998e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #38ef7d,
+    #11998e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
